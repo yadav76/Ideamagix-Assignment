@@ -321,7 +321,7 @@ ul li::before {
     box-shadow: 1px 1px 1px 1px;
     height: 250px;
     position: absolute;
-    left: 450px;
+    right: 20px;
     width: 170px;
     padding: 10px;
 }
