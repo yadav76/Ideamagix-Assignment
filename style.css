@@ -1,0 +1,348 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lato', sans-serif;
+}
+
+.header{
+    max-height: 300px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-left{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.header-right{
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.left{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+}
+.left img{
+    width: 30px;
+    height: 30px;
+}
+.logo-content{
+    line-height: 10px;
+    margin-top: 5px;
+}
+.left h1{
+    
+    font-size: 9px !important;
+    font-weight: 600;
+    line-height: 8px;
+}
+.left p{
+    font-size: 6px;
+}
+
+.right img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+.para{
+    font-size: 7px;
+}
+.h4{
+    font-size: 8px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.navbar{
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,219,1) 0%, rgba(0,209,251,1) 65%);
+    color: #fff;
+    font-weight: 200;
+}
+.navbar-left{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 17px;
+    
+}
+.navbar-left p{
+    cursor: pointer;
+    font-size: 8px;
+
+}
+
+.navbar-right{
+    width: 15%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: blue;
+    margin-right: 30px;
+    overflow: hidden;
+}
+.fa-search{
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.navbar-right input{
+    outline: none;
+    width: 100px;   
+    border: none;
+    font-size: 8px;
+    background:transparent;
+    color: #fff;
+}
+
+.home{
+    background-image: url('./images/home-background.png');
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 175px;
+    color: #fff;
+}
+.home-content{
+    padding: 20px 40px;
+}
+.home .heading{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.home p{
+    font-size: 8px;
+    padding: 3px 0;
+}
+.home p span{
+    color: red;
+    padding: 0 3px;
+    font-size: 8px;
+}
+
+.home-content button{
+    outline: none;
+    border: none;
+    background-color: rgba(20, 209, 223, 0.856);
+    font-size: 9px;
+    color: #fff;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    gap: 20px;
+    /* margin-left: 20px; */
+    margin-right: 100px;
+    padding: 10px;
+    font-weight: 600;
+}
+.border-bottom{
+    border: 0.1px solid gray;
+}
+
+.treatment{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 35px;
+    gap: 20px;
+}
+.treatment-content{
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.treatment-content p{
+    font-size: 8px;
+    margin: 8px 0;
+    line-height: 12px;
+}
+.treatment .heading{
+    font-size: 15px;
+    font-weight: 700;
+}
+.treatment-image{
+    background-image: url('./images/treatment.png');
+    background-repeat: no-repeat;  
+    background-size: cover;
+    width: 45%;
+    height: 200px;
+}
+
+.heading-size{
+    font-size: 15px;
+    font-weight: 700;
+}
+.paragraph{
+    font-size: 8px;
+    margin: 8px 0;
+    line-height: 12px;
+}
+
+.display-flex{
+    display: flex;
+    flex-flow: column wrap;
+
+    width: 65%;
+    padding: 0 50px;
+}
+
+ul{
+    list-style-type: circle;
+    font-size: 8px;
+    margin: 8px 0;
+    line-height: 12px;
+    margin-left: 10px ;
+}
+ul li::before {
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1rem;
+    margin-left: -1em;
+  }
+
+.border{
+    border-bottom: 1px dotted blue;
+    width: 90%;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.separation{
+    border-bottom: 1px dotted blue;
+    width: 50%;
+    margin: 20px 0 20px 45px;
+}
+
+.patient-content{
+    display: flex;
+    width: 65%;
+    flex-flow: row no-wrap;
+    margin: 20px 0;
+}
+.patient-content img{
+    width: 125px;
+    height: 125px;
+}
+
+.items{
+    margin: 30px;
+}
+
+.doctors{
+    background-color: rgb(180, 224, 222);
+    height: 300px;
+    padding: 20px;
+}
+.doctors .item{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.doctors-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.hospitals{
+    height: 300px;
+    padding: 20px;
+}
+
+.hospitals .item{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 470px;
+    background-image: url('./images/footer.png');
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+
+.treatment-menu{
+    display: flex;
+    flex-flow: row;
+    position: relative;
+}
+
+.treatment-right{
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+    height: 250px;
+    position: absolute;
+    left: 450px;
+    width: 170px;
+    padding: 10px;
+}
+
+.input{
+    outline: none;
+    border: 0.1px solid gray;
+    padding: 5px;
+    margin: 3px;
+    width: 95%;
+    font-size: 8px;
+}
+
+.btn{
+    outline: none;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 3px;
+    width: 95%;
+    font-size: 8px;
+    color: #fff;
+    background-color: rgb(37, 144, 170);
+    border-radius: 5px;
+}
