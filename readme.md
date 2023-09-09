@@ -16,15 +16,17 @@ Table of Contents
 
 1. Introduction <a name="introduction"></a>
 
-Welcome to the frontend assignment submission! This README file provides all the necessary information for submitting your assignment to [Company Name]. Please follow the instructions carefully to ensure a smooth submission process. 2. Instructions <a name="instructions"></a>
-General Guidelines <a name="general-guidelines"></a>
+Welcome to the frontend assignment submission! This README file provides all the necessary information for submitting your assignment to Ideamagix.com. Please follow the instructions carefully to ensure a smooth submission process.
 
-    Read and understand the assignment requirements thoroughly.
-    Ensure your code is well-structured, modular, and follows best practices.
-    Use meaningful variable names and comments to enhance code readability.
-    Avoid using third-party libraries or frameworks unless specified in the assignment.
-    Ensure responsiveness for various screen sizes (desktop, tablet, mobile).
-    Test your code on multiple browsers to ensure cross-browser compatibility.
+2.  Instructions <a name="instructions"></a>
+    General Guidelines <a name="general-guidelines"></a>
+
+        Read and understand the assignment requirements thoroughly.
+        Ensure your code is well-structured, modular, and follows best practices.
+        Use meaningful variable names and comments to enhance code readability.
+        Avoid using third-party libraries or frameworks unless specified in the assignment.
+        Ensure responsiveness for various screen sizes (desktop, tablet, mobile).
+        Test your code on multiple browsers to ensure cross-browser compatibility.
 
 Technical Requirements <a name="technical-requirements"></a>
 
@@ -32,8 +34,7 @@ Technical Requirements <a name="technical-requirements"></a>
 
 Submission Process <a name="submission-process"></a>
 
-    Fork this repository to your own GitHub account.
-    Create a new branch with a descriptive name (e.g., feature/add-login-page).
+    Create a new repository to your own GitHub account descriptive name (e.g., feature/add-login-page).
     Complete the assignment within the designated folder.
     Provide clear and concise documentation if required.
     Make sure to test your project to ensure it meets the specified requirements.
@@ -43,7 +44,9 @@ Submission Process <a name="submission-process"></a>
 
 3. Project Overview <a name="project-overview"></a>
 
-[Provide a brief overview of the project and its main features.] 4. Folder Structure <a name="folder-structure"></a>
+[Provide a brief overview of the project and its main features.]
+
+4. Folder Structure <a name="folder-structure"></a>
 
 bash
 
@@ -61,22 +64,31 @@ bash
 ├── ...
 └── README.md
 
-[Explain the folder structure of your project.] 5. Getting Started <a name="getting-started"></a>
+[Explain the folder structure of your project.]
 
-[Provide any necessary instructions for getting the project up and running.] 6. Dependencies <a name="dependencies"></a>
+5. Getting Started <a name="getting-started"></a>
+   The Assignment is Runnit fine. I made the same Design as given to me in the Mail. I have made 2 Crausel Section in this assignment as given in design. I try make the assgnment as Responsive as I can. I have same Images given in design.
 
-[Specify any external libraries, frameworks, or packages used in the project.] 7. Running the Project <a name="running-the-project"></a>
+6. Dependencies <a name="dependencies"></a>
 
-[Provide detailed steps on how to run the project locally for testing.] 8. Additional Notes <a name="additional-notes"></a>
+I have used some Icons from font-awesome.com and I have also used OWL Crausel Library to make Carousel Section.
 
-[Include any additional information, comments, or suggestions for the reviewer.] 9. Contact Information <a name="contact-information"></a>
+7. Running the Project <a name="running-the-project"></a>
+
+I have deployed the assignment on github.com Iteself and The assginment is working fine on github pages.
+
+8. Additional Notes <a name="additional-notes"></a>
+
+I have learnt Various things from this Assginment and I like to use those things to build Real World Prjects for your Organisation If I am Selected.
+
+9. Contact Information <a name="contact-information"></a>
 
 If you have any questions or need further clarification, please feel free to reach out:
 
-    Name: [Your Name]
-    Email: [Your Email Address]
-    GitHub: [Your GitHub Profile]
+    Name: Santosh yadav
+    Email: yadavsantosh6720@gmail.com
+    GitHub: https://github.com/yadav76
 
 We look forward to reviewing your submission! Thank you for your time and effort.
 
-[Company Name] - [Year]
+Ideamagix.com - 2023
