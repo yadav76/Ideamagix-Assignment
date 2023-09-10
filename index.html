@@ -61,6 +61,7 @@
             </div>
         </div>
         <div class="navbar">
+            <p id="home">Home</p>
             <div class="navbar-left">
                 <p>Home</p>
                 <p>About Us</p>
@@ -74,6 +75,26 @@
             <div class="navbar-right">
                 <i class="fa fa-search search-icon" aria-hidden="true"></i>
                 <input type="text" placeholder="Search">
+            </div>
+            
+            <div class="hamberger-icon" onclick="myFunc()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="hamberger">
+                
+                <p>About Us</p>
+                <p>Treatment +</p>
+                <p>Destinations +</p>
+                <p>Hospitals</p>
+                <p>FAQs</p>
+                <p>Blog</p>
+                <p>Request A Quote</p>
+                <i class="fa fa-search search-icon" aria-hidden="true"></i>
+                <input type="text" placeholder="Search">
+
+                <div onclick="close()"><i class="fa-solid fa-circle-xmark cross-icon" ></i></div>
             </div>
         </div>
         <div class="home">
@@ -178,15 +199,15 @@
                 <input class="input" type="text" placeholder="Full Name">
                 <input class="input" type="text" placeholder="Email">
                 <input class="input" type="text" placeholder="Phone Number">
-                <input class="input" type="text" placeholder="Describe Your Treatment Requiremnets" style="height: 35px; padding-bottom: 20px;">
+                <input class="input" type="text" placeholder="Describe Your Treatment Requiremnets" style="height: 75px; padding-bottom: 50px;">
                 <button class="btn">Send Enquiry</button>
             </div>
         </div>
 
         <div class="doctors">
             <div class="doctors-heading">
-                <p style="font-style: italic; color: red; font-size: 10px;">Doctors</p>
-                <p class="heading-size">Top Orthopaedic <span class="heading-size" style="color: blue;">Doctors</span></p>
+                <p style="font-style: italic; color: red; font-size: 20px; font-weight: 500;">Doctors</p>
+                <p class="heading-size">Top Orthopaedic <span class="heading-size center" style="color: blue;">Doctors</span></p>
             </div>
             <div class="owl-carousel owl-theme items">
                 <div class="item">
@@ -213,7 +234,7 @@
 
         <div class="hospitals">
             <div class="doctors-heading">
-                <p style="font-style: italic; color: red; font-size: 10px;">Hospitals</p>
+                <p style="font-style: italic; color: red; font-size: 20px;">Hospitals</p>
                 <p class="heading-size">Recommended <span class="heading-size" style="color: blue;">Hospitals</span></p>
             </div>
             <div class="owl-carousel owl-theme items">
@@ -239,7 +260,7 @@
             </div>
         </div>
 
-        <div class="paragraph" style="text-align: center;">Don't hesitat, contact us for botter help and services. <span style="color: red; text-decoration: underline;">Explore all Hospitals</span></div>
+        <div class="paragraph" style="text-align: center; padding-bottom: 10px;">Don't hesitat, contact us for botter help and services. <span style="color: red; text-decoration: underline;">Explore all Hospitals</span></div>
 
         <div class="footer"></div>
     </div>
@@ -258,7 +279,7 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
             items:3
@@ -266,5 +287,6 @@ $('.owl-carousel').owlCarousel({
     }
 })
     </script>
+    <script src="./script.js"></script>
 </body>
 </html>

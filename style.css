@@ -9,7 +9,7 @@
 }
 
 .header{
-    max-height: 300px;
+    max-height: 500px;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -43,27 +43,27 @@
     max-width: 100px;
 }
 .left img{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
 }
 .logo-content{
-    line-height: 10px;
-    margin-top: 5px;
+    line-height: 30px;
+    margin-top: 10px;
 }
 .left h1{
     
-    font-size: 9px !important;
+    font-size: 15px !important;
     font-weight: 600;
-    line-height: 8px;
+    line-height: 15px;
 }
 .left p{
-    font-size: 6px;
+    font-size: 12px;
 }
 
 .right img{
-    height: 30px;
-    width: 30px;
-    margin-top: 5px;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
 }
 
 .display{
@@ -74,18 +74,18 @@
     
 }
 .para{
-    font-size: 7px;
+    font-size: 15px;
 }
 .h4{
-    font-size: 8px;
+    font-size: 12px;
 }
 .icon{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .navbar{
-    height: 25px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
@@ -93,6 +93,9 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,219,1) 0%, rgba(0,209,251,1) 65%);
     color: #fff;
     font-weight: 200;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
 }
 .navbar-left{
     width: 70%;
@@ -105,13 +108,13 @@
 }
 .navbar-left p{
     cursor: pointer;
-    font-size: 8px;
+    font-size: 15px;
 
 }
 
 .navbar-right{
     width: 15%;
-    height: 25px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,51 +124,51 @@
     overflow: hidden;
 }
 .fa-search{
-    font-size: 10px;
-    margin-left: 20px;
+    font-size: 20px;
+   
 }
 
 .navbar-right input{
     outline: none;
     width: 100px;   
     border: none;
-    font-size: 8px;
+    font-size: 15px;
     background:transparent;
-    color: #fff;
+    color: #fff
 }
 
 .home{
     background-image: url('./images/home-background.png');
     background-repeat: no-repeat;  
     background-size: cover;
-    height: 175px;
+    height: 300px;
     color: #fff;
 }
 .home-content{
-    padding: 20px 40px;
+    padding: 30px 40px;
 }
 .home .heading{
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 700;
     padding: 10px 0;
 }
 .home p{
-    font-size: 8px;
+    font-size: 15px;
     padding: 3px 0;
 }
 .home p span{
     color: red;
     padding: 0 3px;
-    font-size: 8px;
+    font-size: 15px;
 }
 
 .home-content button{
     outline: none;
     border: none;
     background-color: rgba(20, 209, 223, 0.856);
-    font-size: 9px;
+    font-size: 16px;
     color: #fff;
-    padding: 5px 15px;
+    padding: 10px 25px;
     margin-top: 20px;
 }
 .menu{
@@ -173,7 +176,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    font-size: 8px;
+    font-size: 20px;
     gap: 20px;
     /* margin-left: 20px; */
     margin-right: 100px;
@@ -196,12 +199,12 @@
     flex-flow: column wrap;
 }
 .treatment-content p{
-    font-size: 8px;
+    font-size: 15px;
     margin: 8px 0;
-    line-height: 12px;
+    line-height: 1.4;
 }
 .treatment .heading{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 700;
 }
 .treatment-image{
@@ -209,17 +212,17 @@
     background-repeat: no-repeat;  
     background-size: cover;
     width: 45%;
-    height: 200px;
+    height: 400px;
 }
 
 .heading-size{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 700;
 }
 .paragraph{
-    font-size: 8px;
+    font-size: 15px;
     margin: 8px 0;
-    line-height: 12px;
+    line-height: 1.4;
 }
 
 .display-flex{
@@ -232,9 +235,9 @@
 
 ul{
     list-style-type: circle;
-    font-size: 8px;
+    font-size: 15px;
     margin: 8px 0;
-    line-height: 12px;
+    line-height: 1.4;
     margin-left: 10px ;
 }
 ul li::before {
@@ -247,14 +250,14 @@ ul li::before {
   }
 
 .border{
-    border-bottom: 1px dotted blue;
-    width: 90%;
+    border-bottom: 2px dotted blue;
+    width: 95%;
     margin-left: 25px;
     margin-bottom: 20px;
 }
 .separation{
-    border-bottom: 1px dotted blue;
-    width: 50%;
+    border-bottom: 2px dotted blue;
+    width: 60%;
     margin: 20px 0 20px 45px;
 }
 
@@ -265,8 +268,8 @@ ul li::before {
     margin: 20px 0;
 }
 .patient-content img{
-    width: 125px;
-    height: 125px;
+    width: 250px;
+    height: 250px;
 }
 
 .items{
@@ -275,13 +278,13 @@ ul li::before {
 
 .doctors{
     background-color: rgb(180, 224, 222);
-    height: 300px;
+    height: 475px;
     padding: 20px;
 }
 .doctors .item{
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
+    width: 250px;
+    height: 275px;
+    margin-bottom: 40px;
 }
 .doctors-heading{
     display: flex;
@@ -291,19 +294,20 @@ ul li::before {
 }
 
 .hospitals{
-    height: 300px;
+    height: 475px;
     padding: 20px;
+    margin: 30px;
 }
 
 .hospitals .item{
-    width: 170px;
-    height: 170px;
-    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
 }
 
 .footer{
     width: 100%;
-    height: 470px;
+    height: 900px;
     background-image: url('./images/footer.png');
     background-repeat: no-repeat;  
     background-size: cover;
@@ -317,32 +321,217 @@ ul li::before {
 
 .treatment-right{
     border: 1px solid gray;
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px;
-    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px;
+    height: 500px;
     position: absolute;
     right: 20px;
-    width: 170px;
+    width: 400px;
     padding: 10px;
 }
 
 .input{
     outline: none;
     border: 0.1px solid gray;
-    padding: 5px;
-    margin: 3px;
+    padding: 15px;
+    margin: 10px;
     width: 95%;
-    font-size: 8px;
+    font-size: 15px;
 }
 
 .btn{
     outline: none;
     border: 1px solid gray;
-    padding: 5px;
-    margin: 3px;
+    padding: 15px;
+    margin: 10px;
     width: 95%;
-    font-size: 8px;
+    font-size: 15px;
     color: #fff;
     background-color: rgb(37, 144, 170);
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.cross-icon{
+    font-size: 25px;
+    margin-top:15px ;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.active{
+    display: block;
+}
+.hamberger{
+    display: none;
+    cursor: pointer;
+}
+#home{
+    display: none;
+}
+.hamberger{
+        display: none;
+        position: absolute;
+        width: 200px;
+        background-color: #023;
+        color: #fff;
+        right: 0;
+        height: 370px;
+        top: 0;
+    }
+
+@media screen and (max-width: 768px) {
+    .header-right{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    .navbar-left{
+        display: none;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .hamberger-icon{
+        display: block;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .hamberger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamberger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamberger.active .bar:nth-child(2){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+
+    #home{
+        display: block;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .bar{
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+    }
+    
+    .hamberger p{
+        font-size: 15px;
+        padding: 5px;
+        margin: 10px;
+    }
+    .hamberger i{
+        margin-left: 15px;
+        margin-right: 5px;
+        
+    }
+    .hamberger input{   
+        width: 150px;
+        padding: 5px;
+        outline: none;
+        font-size: 12px;
+    }
+    .home{
+        height: 400px;
+    }
+
+    .home .home-content{
+        display: flex;
+        padding-top: 50px;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+
+    .menu{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .treatment{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .treatment-content{
+        width: 100%;
+    }
+    .treatment-image{
+        width: 100%;
+        height: 300px;
+    }
+
+    .treatment-menu{
+        flex-flow: column ;
+    }
+    .eligibility{
+        width: 100%;
+    }
+    .preparation{
+        width: 100%;
+    }
+    .Post-Treatment{
+        width: 100%;
+    }
+    .Treatment-recovery{
+        width: 100%;
+    }
+    .patient-stories {
+        width: 100%;
+    }
+
+    .treatment-right{
+        position: static;
+        width: 90%;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+
+    .doctors{
+        height: 500px;
+    }
+    .center{
+        text-align: center;
+    }
+
+    .hospitals{
+        height: 500px;
+        width: 100%;
+        margin-left: -40px;
+    }
+
+    .doctors-heading{
+        text-align: center;
+    }
+    .hospitals .items .item{
+        width: 100%;
+        /* margin: 20px; */
+        overflow: hidden;
+        /* padding: 20px; */
+        height: 300px;
+        gap: 0;
+        flex-flow: row wrap;
+    }
+    .hospitals .items .item img{
+        height: 250px;
+        width: 260px;
+        padding:0 20px;
+    }
+    .footer{
+        height: 900px;
+        width: 100%;
+    }
 }
